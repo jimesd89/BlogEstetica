@@ -1,0 +1,6 @@
+C:\Users\Usuario\OneDrive\Escritorio\homeEstetic\ProyectoEstetica\BlogDeEstetica\bin\Debug\BlogDeEstetica.dacpac
+C:\Users\Usuario\OneDrive\Escritorio\homeEstetic\ProyectoEstetica\BlogDeEstetica\bin\Debug\BlogDeEstetica.dll
+C:\Users\Usuario\OneDrive\Escritorio\homeEstetic\ProyectoEstetica\BlogDeEstetica\bin\Debug\BlogDeEstetica.pdb
+C:\Users\Usuario\OneDrive\Escritorio\homeEstetic\ProyectoEstetica\BlogDeEstetica\obj\Debug\BlogDeEstetica.sqlproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\homeEstetic\ProyectoEstetica\BlogDeEstetica\obj\Debug\BlogDeEstetica.dll
+C:\Users\Usuario\OneDrive\Escritorio\homeEstetic\ProyectoEstetica\BlogDeEstetica\obj\Debug\BlogDeEstetica.pdb
