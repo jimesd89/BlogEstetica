@@ -9,10 +9,10 @@
     <section class="page-section" >
         <div class="container">
             <div class="text-center">
-                <a href="@(string.Format($"/Post/{item.Id}"))">
+                <a asp-controller="home" asp-action="post" asp-route-id=@item.Id>
                 <h2 class="section-heading text-uppercase">@item.Titulo</h2>
-                </a>
                 <h3 class="section-subheading text-muted">@item.Subtitulo</h3>
+                </a>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">

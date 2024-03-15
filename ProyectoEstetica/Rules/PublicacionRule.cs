@@ -23,13 +23,24 @@ namespace ProyectoEstetica.Rules
                 return post.First();
             }
         }
+        public Publicacion GetPostById(int id)
+        {
+            var connectionString = _configuration.GetConnectionString("NuevaBase");
+            using var connection = new SqlConnection(connectionString);
+            {
+                connection.Open();
+                var query = "Select  * from publicacion where id = @id";
+                var post = connection.QueryFirstOrDefault<Publicacion>(query, new {id});
+                return post;
+            }
+        }
         public List<Publicacion> GetOnePostHome()
         {
             var connectionString = _configuration.GetConnectionString("NuevaBase");
             using var connection = new SqlConnection(connectionString);
             {
                 connection.Open();
-                var post = connection.Query<Publicacion>("select * from publicacion order by Creacion asc");
+                var post = connection.Query<Publicacion>("select top 4 * from publicacion order by Creacion asc");
                 return post.ToList();
             }
         }
